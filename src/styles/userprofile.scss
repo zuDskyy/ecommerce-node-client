@@ -1,0 +1,29 @@
+
+      .userProfileCard {
+        width: 250px;
+        height: 300px;
+        overflow: auto;
+      
+        background-color: white;
+       
+      }
+  
+      #userProfileCircle-avatar {
+        
+        display: grid;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #ffbd30;
+        place-items: center;
+  
+       img {
+          width:60px;
+          height: 60px;
+          border-radius:50%;
+          object-fit: cover;
+          
+        }
+      }
+  
+    

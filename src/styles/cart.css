@@ -1,0 +1,35 @@
+.cartOrderSumm{
+    position: relative;
+    padding-left:7px;
+    position:sticky;
+    top:15%;
+    
+ }
+ 
+ .cartOrderSumm h1{
+     position: relative;
+    font-size:19px;
+    border-bottom: 2px solid black;
+  }
+  .cartProductOrder{
+     border-radius: 12px;
+     height:150px;
+  }
+  .cartProductOrder img{
+   border-top-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+   object-fit: cover;
+  }
+  .cartPorductOrderContainer{
+     display: flex;
+     flex-direction: column;
+     
+     gap:7px;
+  }
+
+  .orderQuantityIco{
+   
+   background-color: black;
+   color:white;
+   border-radius: 50%;
+  }

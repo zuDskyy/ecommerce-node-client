@@ -1,0 +1,40 @@
+.hidden{
+    display: none;
+}
+
+.navbarRightUser{
+ 
+  gap:7px;
+}
+
+.navbarRightCart{ 
+
+    color:rgb(46, 43, 43);
+    padding-right:3em;
+}
+.navbarCenterLogo{
+    color:inherit;
+    text-decoration: none;
+    display: flex;
+     font-weight: 400;
+    align-items: center;
+    gap:4px;
+    
+}
+.navbarCenterLogo:hover{
+    color:red;
+}
+ .betabutton{
+    border: none;
+    background-color: rgb(8, 8, 8);
+    border-radius: 20px;
+    font-size:14px;
+    padding:2px;
+    margin-top:10px;
+    color:rgb(223, 240, 223);
+    font-weight: 600;
+    width:50px;
+    height: 25px;
+    font-family:  "Barlow Condensed";
+    
+}
