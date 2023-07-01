@@ -74,7 +74,7 @@ const Register = () => {
     const handleRegister = (e) => {
         e.preventDefault();
         register(inputs, dispatch);
-        navigate('/login');
+       
     }
   return (
     <Container>
@@ -82,7 +82,7 @@ const Register = () => {
         <Title>CREATE AN ACCOUNT</Title>
         <Form onChange={handleChange}>
           <Input name="name" placeholder="name"  />
-          <Input name='last name' placeholder="last name" />
+          <Input name="lastname" placeholder="last name" />
           <Input name="username" placeholder="username" />
           <Input name="email" type="email" placeholder="email" />
           <Input name="password" type="password"  placeholder="password" />

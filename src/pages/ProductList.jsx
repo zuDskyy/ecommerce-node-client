@@ -6,7 +6,7 @@ import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import { mobile } from "../responsive";
 import { useLocation } from "react-router-dom";
-import { useState } from "react";
+import React,{ useState,useEffect } from "react";
 
 const Container = styled.div``;
 
@@ -44,6 +44,11 @@ const ProductList = () => {
  const [filters,setFilters] = useState({});
  const [sort, setSort]= useState("newest");
 
+
+
+ useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
  const handleFilters = (e) =>{
   const value = e.target.value;
   setFilters({

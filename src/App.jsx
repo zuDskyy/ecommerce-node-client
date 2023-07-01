@@ -13,9 +13,11 @@ import {
 import Success from "./pages/Success";
 import { useSelector } from "react-redux";
 import './styles/app.css'
+import { useEffect } from "react";
 
 const App = () => {
   const user = useSelector(state => state.user.currentUser)
+  
   return (
     <Router>
       
